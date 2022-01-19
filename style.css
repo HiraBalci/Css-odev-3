@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 7px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+}
+a {
+  text-decoration: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*navbar*/
+.link {
+  color: #5f6368;
+  margin-left: 2rem;
+}
+nav {
+  margin-top: 2rem;
+}
+#left-links {
+  float: left;
+}
+#right-links {
+  float: right;
+}
+#right-links li {
+  float: left;
+  margin-left: 2rem;
+}
+svg {
+  width: 2rem;
+  height: 2rem;
+}
+ul {
+  list-style-type: none;
+}
+.nav-link {
+  color: #5f6368;
+  display: inline-block;
+}
+button {
+  margin-right: 2rem;
+}
+.nav-item a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.link:hover {
+  color: black;
+  text-decoration: underline;
+}
+button:hover {
+  background-color: rgb(219, 218, 218);
+}
+.google-icon:hover {
+  background-color: gray;
+
+  border: solid 1px grey;
+}
+.button2 {
+  height: 36px;
+}
+/*main*/
+main {
+  height: 80rem;
+  padding-top: 22.4rem;
+  padding-bottom: 22.4rem;
+  text-align: center;
+}
+input {
+  width: 480px;
+  height: 30px;
+  border-radius: 10px;
+  opacity: 0.5px;
+}
+
+.google-button {
+  height: 36px;
+  color: #5f6368;
+  border: solid 1px #f2f2f2;
+}
+.input-icons svg {
+  position: absolute;
+  padding-top: 6px;
+  opacity: 0.8;
+}
+/*footer*/
+
+div#right {
+  position: absolute;
+  right: 0;
+  color: #5f6368;
+  display: inline-block;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+#left {
+  color: #5f6368;
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 576px) {
+  main {
+    height: 5rem;
+  }
+  main {
+    height: 80rem;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  main {
+    height: 90rem;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 10px;
+  }
+  main {
+    height: 100rem;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 10px;
+  }
+  main {
+    height: 120rem;
+  }
+}
